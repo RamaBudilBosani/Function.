@@ -1,0 +1,6 @@
+def change(x):
+    x[0] = 99
+
+numbers = [10, 20, 30]
+change(numbers)
+print(numbers)
